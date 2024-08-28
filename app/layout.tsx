@@ -4,6 +4,7 @@ import './globals.css'
 import Image from 'next/image'
 import backgroundImage from '@/assets/wallpapers/windows/default_wallpaper.jpg'
 import Taskbar from '@/components/Taskbar'
+import Trademark from '@/components/Trademark'
 
 const noto_Sans = Noto_Sans({ subsets: ['latin'] })
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         />
         {children}
 
+        <Trademark />
         <Taskbar />
       </body>
     </html>
