@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${noto_Sans.className}`}>
+      <body className={`${noto_Sans.className} select-none`}>
         <Image
           src={backgroundImage.src}
           alt=''
